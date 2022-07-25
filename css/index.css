@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  height: 15vh;
+  width: 100vw;
+  /* background-color: yellow; */
+  color: white;
+}
+
+nav div {
+  display: flex;
+  color: black;
+}
+
+.navbar img {
+  height: 39px;
+  width: 99px;
+}
+
+.signin-btn {
+  padding: 10px 37px;
+  font-size: 14px;
+
+  background: linear-gradient(to right, #965cf2, #fe8adc);
+  border: none;
+  color: white;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.navbar h5 {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.left-section h1 {
+  margin-left: 97px;
+  margin-top: 61px;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.left-section h4 {
+  line-height: 27px;
+  width: 295px;
+  margin-top: 55px;
+  margin-left: 97px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.learn-more-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 22px;
+  margin-left: 97px;
+  margin-top: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background: linear-gradient(to right, #965cf2, #fe8adc);
+  cursor: pointer;
+}
+
+/* .main-div::before {
+  background: url("./images/intro-img.svg");
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+} */
+
+.imgs-div img:nth-child(3) {
+  height: 550px;
+  width: 604px;
+  position: absolute;
+  right: 140px;
+  top: 88px;
+  z-index: -1;
+}
+
+.imgs-div img:nth-child(4) {
+  height: 773px;
+  width: 774px;
+  position: absolute;
+  right: 0px;
+  top: -129px;
+  z-index: -2;
+}
+
+.imgs-div img:nth-child(1) {
+  width: 90px;
+  position: absolute;
+  top: 445px;
+  left: 636px;
+}
+
+.imgs-div img:nth-child(2) {
+  position: absolute;
+
+  bottom: 184px;
+  left: 692px;
+}
